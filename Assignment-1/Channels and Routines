@@ -17,5 +17,5 @@ func main() {
 	fmt.Println("Main goroutine")
 	go try(done)
 	<-done
-	fmt.Println("Data Finished")
+	fmt.Println("Data Recieved")
 }
