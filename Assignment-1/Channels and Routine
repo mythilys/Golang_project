@@ -1,4 +1,4 @@
----Go channels and Go routine
+---Go channels and Go Routine
 package main
 
 import (
