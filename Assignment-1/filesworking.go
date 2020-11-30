@@ -32,9 +32,9 @@ func CreateFile() {
 func ReadFile() {
 
 	fmt.Printf("\n\nReading a file")
-	fileName := "test.txt"
+	fileName := "mythily.txt"
 
-	data, err := ioutil.ReadFile("test.txt")
+	data, err := ioutil.ReadFile("mythily.txt")
 	if err != nil {
 		log.Panicf("failed reading data from file: %s", err)
 	}
